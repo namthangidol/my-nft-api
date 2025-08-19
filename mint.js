@@ -23,7 +23,7 @@ export default async function handler(req, res) {
 
     // Mint NFT
     const tx = await contract.erc721.mintTo(walletAddress, {
-      name: "Tour NFT Ticket",
+      name: "Blog NFT Ticket",
       description: "NFT Kỷ Niệm Của Blog Nguyễn Nam Thắng",
       image: "https://nguyennamthang.com/wp-content/uploads/2025/08/blog-nguyen-nam-thang-cham-com.png", // thay link ảnh NFT của bạn
     });
