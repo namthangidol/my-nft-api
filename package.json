@@ -1,0 +1,10 @@
+{
+  "name": "nft-mint-api",
+  "version": "1.0.0",
+  "main": "api/mint.js",
+  "license": "MIT",
+  "dependencies": {
+    "@thirdweb-dev/sdk": "^4.0.0",
+    "ethers": "^6.6.0"
+  }
+}
